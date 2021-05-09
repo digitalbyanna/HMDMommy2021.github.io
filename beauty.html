@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Happy Mother's Day Mom</title>
+<!--Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100;900&family=Poppins:wght@200&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+<!--Style Sheet-->
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+/* Font Styling */
+            h1{
+                font-family: 'Grandstander', cursive;
+                text-align: center;
+            }
+            h2{
+                /* margin-top: 80px; */
+                font-family: 'Grandstander', cursive;
+                font-size: 40px;
+                text-align: center;
+                color: green;
+                padding-left: 20px; 
+                padding-top: 30px;  
+                margin-bottom: 10px; 
+            }
+            h2 span{
+                background-color: rgba(255, 255, 255, 0.564);
+            }
+            h3 {
+                font-family: 'Grandstander', cursive;
+                text-align: center;
+            }
+            h4 {
+                font-family: 'Poppins', sans-serif;
+                padding-left: 50px;
+            }
+            p{
+                font-family: 'Poppins', sans-serif;
+                padding-left: 20px;
+                padding-right: 20px;
+                align-content: center;
+                text-align: center;
+            }
+            .p {
+                margin-right: 5px;
+            }
+            a {
+                color: black;
+            }
+
+/* Images Styling*/
+            @media screen and (max-width:700px) {
+                .menu {
+                    font-size: 16px;
+                }
+            }
+            @media screen and (min-width:100%) {
+                #t2 {
+                    color: black;
+                }
+            }
+            img {
+                padding-top: 10px;
+                width: 100%;
+                align-content: center;
+            }
+            #galleryflex {
+                display: flex;
+                height: 10%;
+            }
+
+
+/* General Section Styling */
+            body {
+                background-image: url(wallpaper.png);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            .menu {
+                font-family: 'Grandstander', cursive;
+                font-size: 25px;
+            }
+            nav {
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+/* Heading Styling */
+            #t1 {
+               width: 20%;
+               }
+            #t2 {
+               width: 75%;
+               color: green;
+               font-size: 220%;
+               } 
+            #TitleLogo {
+               display: flex;
+               align-items: center;
+               background-image: url(background.png);
+               background-size: cover;
+            }
+           #logo {
+                width: 97%;
+                padding: .25em;
+                margin: .25em;
+            }
+            #HMD {
+                font-family: 'Grandstander', cursive;
+                text-align: center;
+                background-color: transparent;
+            }   
+/* Message styling */
+            #mom {
+                margin: 0;
+            }
+
+/*Menu Bar Styling*/
+            #gallery {
+                margin-top: 20px;
+            }
+            #menu {
+            font-weight: 900;
+            }   
+            #home:visited {
+                color: black;            
+            }   
+            #home:hover {
+                color: #558c62;
+            }             
+            #beauty:visited {
+                color: black;            
+            }   
+            #beauty:hover {
+                color: #558c62;
+            }
+            #adventurous:visited {
+                color: black;
+            }
+            #adventurous:hover {
+                color: #558c62;
+            }
+            #silly:visited {
+                color: black;
+            }            
+            #silly:hover {
+                color: #558c62;
+            }
+            #mommaandma:visited {
+                color: black;
+            }            
+            #mommaandma:hover {
+                color: #558c62;
+            }
+           
+/* Footer Styling */
+            footer {  
+                font-size: 2em;
+                position: static;
+                margin-top: 50px;
+                left: 0;
+                bottom: 0;
+                text-align: center;
+            }
+            #HMDsignature {
+                width: 30%;
+                margin: 0px;
+                padding: 0px;
+            }
+            #FooterText {
+                font-size: 15px;
+                font-family: 'Raleway', sans-serif;
+                text-align: center;
+                margin-bottom: 5px;
+            }
+
+        </style>
+    </head>
+
+
+
+
+    <body>
+<!--Logo & Title-->
+        <header id="TitleLogo">
+            <div id="t1">
+                <img id="logo" src="SunflowerSky.jpg">
+            </div>             
+            <div id="t2">
+                <h1 id="HMD"> Happy M🌼ther's Day! </h1>
+            </div>
+        </header>
+    
+<!--Gallery: Beauty-->
+        <main>
+            <h2 id="mom"> <span> 🌼 Beauty 🌼 </span> </h2>
+            <div id-"galleryflex">
+                <img src="CoverPhoto.jpg">
+                <img src="Beauty1.JPG">
+                <img src="Beauty2.jpg">
+                <img src="Beauty3.jpg">
+                <img src="Beauty4.jpg">
+                <img src="Beauty5.jpg">
+                <img src="Beauty6.JPG">
+                <img src="Beauty7.JPG">
+            </div>
+            
+        </main>
+
+        <!--Menu Bar-->
+            <div id="gallery"> 
+                <h2> <span> Gallery </span></h2>
+            </div>
+            <nav id="menu">
+                <div class="menu">
+                    <a id="home" href="index.html">HOME</a>
+                </div>
+                <div class="menu">
+                    <a id="beauty" href="beauty.html">BEAUTY</a>
+                </div>
+                <div class="menu">
+                    <a id="adventurous" href="adventurous.html">ADVENTUROUS</a>
+                </div>
+                <div class="menu">
+                    <a id="silly" href="silly.html">SILLY</a>
+                </div>
+                <div class="menu">
+                    <a id="mommaandma" href="mommandme.html">MOMMA & ME</a>
+                </div>
+            </nav>
+
+<!--Footer Section-->
+        <footer>
+            <img id="HMDsignature" src="FooterSignature.png">
+            <p id="FooterText">©2021 Digitalbyanna</p>
+        </footer>
+    </body>
+</html> 
